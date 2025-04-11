@@ -129,27 +129,40 @@ ul{
     width: 100vw;
 }
 .slider-container{
-    height: 40vh;
-    background-color: aquamarine;
+    /* height: 40vh; */
+    background-image: url(https://tw-elements.com/learn/te-foundations/tailwind-css/fullscreen-background-image/assets/img-3.jpg);
+height:50vh;
+width: 100%;
+padding-left:0 7000px;
+
 }
+
+
 .offer-main{
+    width: 100%;
+    background-image :url(
+        https://res.cloudinary.com/dofzu13gt/image/upload/v1695645860/cta-bg-img.39434724a310b9e24e6c_q9nrly.jpg
+    );
+    display: flex;
+    flex-direction: column;
     background-color: antiquewhite;
     padding: 5vh 5vw;
     display: block;
     align-items: flex-start;
     margin-top: 20px;
-    margin-left: 10px;
+    /* margin-right: 20px; */
     text-align: left;
-
 }
 .offer{
     gap: 10px;
 
 }
 .offer-text1{
+    color:#000;
     font-size: 10px;
     gap: 10px;
     line-height: 2rem;
+    font-weight: 600;
 }
 .offer-text2{
     margin-bottom: 10px;
@@ -161,5 +174,34 @@ ul{
     background-color:pink ;
     height:8vh;
     width: 12vw;
+}
+.offer-text2{
+    animation-duration: 1000ms;
+    animation-timing-function: ease;
+    animation-name:initial;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+}
+.offer-para {
+    animation-duration: 1000ms;
+    animation-timing-function: ease;
+    animation-delay: 0ms;
+    animation-name: animation-2txazo;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+    color: #556b2f;
+    font-size: 15px;
+    margin-top: 15px;
+    width: 350px;
+}
+.tree-con img{
+    margin-top: 10px;
+    /* margin-bottom: 10px; */
+    height: 60vh;
+    width: 35vw;
+    margin-top: 20px;
+    margin-right:50px;
+
 }
 
