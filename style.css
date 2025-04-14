@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family:sans-serif;
+    
 }
 body{
     font-size: var(--bs-body-font-size);
@@ -130,15 +131,40 @@ ul{
 }
 .slider-container{
     /* height: 40vh; */
-    background-image: url(https://tw-elements.com/learn/te-foundations/tailwind-css/fullscreen-background-image/assets/img-3.jpg);
+    background-image: url(https://res.cloudinary.com/dofzu13gt/image/upload/v1695464341/marvin-meyer-SYTO3xs06fU-unsplash_gvg3sw.jpg);
 height:50vh;
 width: 100%;
 padding-left:0 7000px;
+box-shadow: 0 10px 30px rgba(0,0,0, .07);
+margin-top: 0;
+}
+.carousel-root{
+    outline: none;
+}
+carousel.carousel-slider{
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+}
+.carrousel .control-dots{
+    bottom: 0;
+    margin: 10px 0;
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+}
+.carousel *{
+    box-sizing: border-box;
 
 }
 
 
+
 .offer-main{
+    margin-top: 20px;
+    height: 110vh;
     width: 100%;
     background-image :url(
         https://res.cloudinary.com/dofzu13gt/image/upload/v1695645860/cta-bg-img.39434724a310b9e24e6c_q9nrly.jpg
@@ -186,7 +212,6 @@ padding-left:0 7000px;
     animation-duration: 1000ms;
     animation-timing-function: ease;
     animation-delay: 0ms;
-    animation-name: animation-2txazo;
     animation-direction: normal;
     animation-fill-mode: both;
     animation-iteration-count: 1;
@@ -198,10 +223,110 @@ padding-left:0 7000px;
 .tree-con img{
     margin-top: 10px;
     /* margin-bottom: 10px; */
-    height: 60vh;
-    width: 35vw;
+    height: 50vh;
+    width: 40vw;
     margin-top: 20px;
     margin-right:50px;
 
 }
+.services{
+    /* background-color: #333; */
+    align-items: center;
+    /* background-color: #f7f7f7; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1px 0;
+    position: relative;
+    text-align: center;
+    z-index: 2;
+
+}
+.services h2{
+    color: #333;
+    font-size: 45px;
+    margin-top: 30px;
+    height: 5vh;
+}
+.services-cards img{
+    /* height: 250px; */
+    box-sizing: border-box;
+    
+}
+.web-icon{
+    height: 100px;
+    width: 100px;
+}
+.services-cards{
+
+    /* background-color: #f7f7f7; */
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 20px;
+    height: 30px;
+
+}
+
+.services-card::before{
+    margin-top: 10px;
+    background-image: url(https://res.cloudinary.com/dofzu13gt/image/upload/v1696865197/shadow.62db8ea…_kjselc.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    display: block;
+    height: 100%;
+    left: -20%;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    top: 90%;
+    -webkit-transform-origin: 30% 50%;
+    transform-origin: 30% 50%;
+    transition: all .4s ease-out;
+    width: 100%;
+    z-index: 1;
+    /* background-color: #f7f7f7; */
+}
+.service-content img{
+    /* margin-top: 4px; */
+    padding: 5px 0;
+}
+.services-card{
+    box-shadow: #181b31;
+    border: 1px solid black;
+    border-radius: 20px;
+    cursor:pointer ;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    height: 40vh;
+    width: 24vw;
+    padding: 20px;
+    margin-top: 60px;
+    
+}
+.services-card button{
+    background-color: #f8198d;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    transition: background-color .3s ease-in-out;
+    height: 7vh;
+    margin-top: 1%;
+}
+.services-card:nth-child(2){
+    transform: rotate(15deg);
+}
+
+.widget-items{
+    align-items: center;
+    height: 50vh;
+
+}
+
+
+
 
