@@ -537,37 +537,135 @@ carousel.carousel-slider{
     color: #333;
     text-decoration: none;
 }
-.logos{
+.logos img{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
     flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 14vw;
+    text-align: center;
+    height: 6vh;
+    margin-top: 30px;
 }
-.img-1 img{
+.logos{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+.faw-container{
+    align-items: center;
+    box-shadow: 0 4px 6px hsla(0, 0%, 100%, .5);
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    text-align: center;
+    width: 100%;
+}
+.faq-heading{
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+
+}
+.faq-item{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    transition: all .3s ease;
+    width: 100vw;
+}
+.faq-question{
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+
+.get-container{
+    margin-top: 30px;
+    display: flex;
+    /* justify-content: center; */
+    position: relative;
+    padding: 2rem 0px;
+    max-width: 1280px;
+    /* margin: 0px auto; */
+    justify-content: space-between;
+    gap: 100px;
+}
+.get-a h2{
+    size: 100;
+    margin-top: 1px;
+    margin-bottom: .5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #333;
+    text-align: start;
+}
+.get-a h4{
+    color: #333;
+    margin-top: 10px;
+    /* line-height: 3px; */
+    /* row-gap: 2px; */
+    font-weight: 600;
+    text-align: start;
+
+}
+.get-a{
+    margin-right: 70px;
+    text-align: start;
+
+}
+.contact{
+    color: #333;
+    /* margin-top: 20px; */
+
+}
+.contact-us{
+    margin-top: 30px;
+
+}
+.mobile{
+    margin-top: 20px;
+}
+.get-item{
+    box-sizing: border-box;
+    /* border: 2px solid red */
     height: 8vh;
-    width: 12vw;
+    width: 50vw;
+    gap: 40px;
+    line-height: 1.5rem;
+    border: 1px solid #ccc;
+    /* border-radius: 5px; */
+    margin-bottom: 10px;
+    padding: 10px;
+    transition: all .3s ease;
 }
-.img-2 img{ 
-    height: 10vh;
-    width: 12vw;
+.get-text{
+    text-align: start;
+    font-size: medium;
+    margin-bottom:30px;
 }
-.img-3 img{
-    height: 8vh;
-    width: 12vw;
+.submit-btn{
+    width: 10rem;
+    height: 2.8rem;
+    margin-top: 20px;
+    background-color: rgb(1, 190, 150);
+    border: none;
+    border-radius: 5px;
+    filter: drop-shadow(rgba(1, 190, 149, 0.318) 0px 4px 5px);
+    cursor: pointer;
+    /* margin-left: 50px; */
 }
-.img-4 img{
-    height: 10vh;
-    width: 12vw;
-}
-.img-5 img{
-    height: 8vh;
-    width: 12vw;
-}
-.img-6 img{
-    height: 10vh;
-    width: 12vw;
-}
+
+
+
 
 
 
