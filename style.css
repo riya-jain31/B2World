@@ -717,7 +717,7 @@ carousel.carousel-slider{
 
 .footer-main{
     background-color: #deb887;
-    height: 50vh;
+    height: 60vh;
     width: 100%;
 }
 .footer-sec{
@@ -730,7 +730,7 @@ carousel.carousel-slider{
 
 }
 .m-cube {
-    margin-left: 50px;
+    /* margin-left: 50px; */
     height: 75px;
     padding-bottom: 20px;
     width: 200px;
@@ -741,20 +741,28 @@ carousel.carousel-slider{
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 20px;
-    margin-left: 20px;
+    margin-left: 15px;
     margin-top: 20px;
 }
-.navbar-logo{
+.cube-ho {
+    margin-top: 40px;
+    font-size: 24px;
+    margin-left: 15px;
+}
+.navbar-logo1{
     color: #fff;
     font-size: 2rem;
     justify-content: space-between;
     text-decoration: none;
     width: 10rem;
 }
-.img1{
-    height: 75px;
-    padding-bottom: 20px;
-    width: 200px;
+.navbar-logo1 img{
+    height: 18vh;
+    /* padding-bottom: 20px; */
+    width: 15vw;
+    margin-right: 90px;
+    margin-top: -10px;
+    
 }
 .qlinks{
     /* display: flex; */
@@ -767,9 +775,70 @@ carousel.carousel-slider{
     font-size: 14px;
     font-weight: 600;
     margin-left: 40px;
-    margin-top: -20px;
+    margin-top: -40px;
 }
+.image-con-foot{
+    margin-top: 15px;
+    gap: 0.5rem;
+    display: flex;
+    justify-content: flex-start;
 
+}
+.face-foot{
+    height: 30px;
+    margin-left: 20px;
+    width: 30px;
+}
+.sms-foot{
+    height: 30px;
+    width: 30px;
+    margin-top: 20px;
+    /* gap: 2rem; */
+
+}
+/* .foot-contact{
+    display: flex;
+    justify-content: baseline;
+} */
+.sms-foot-con{
+    display: flex;
+    gap: 10px;
+    margin-top: 4px;
+    align-items: center;
+    margin-right: 1px;
+}
+ul{
+    list-style:none;
+    text-decoration: none;
+    padding-left: 2rem;
+    line-height: 25px;
+    margin-top: 20px;
+}
+hr{
+    margin: 1rem 0;
+    color: inherit;
+    border: 0;
+    border-top: 1px solid;
+    opacity: .25;
+}
+/* .location img{
+    height: 30px;
+    width: 30px;
+    
+} */
+
+.copyright-main{
+    background-color: #181b31;
+    height: 16vh;
+    width: 100%;
+    margin-top: 3rem;
+}
+.copy-text {
+    color: #fff;
+    text-align: center;
+    /* margin-top: 5rem; */
+    padding: 40px;
+}
 
 
 
