@@ -664,6 +664,111 @@ carousel.carousel-slider{
     /* margin-left: 50px; */
 }
 
+.testimonial-container{
+    margin: 20px;
+    /* background-color: #556b2f; */
+}
+.testimonial-container h4{
+    color: #333;
+    margin-bottom: 40px;
+    font-size: 40px;
+    line-height: 5px;
+    text-decoration: none;
+}
+.feedback p{
+    text-align: center;
+    font-size: 24px;
+
+}
+.review-sec{
+    box-sizing: border-box;
+    border: 2px solid rgba(221, 210, 210, 0.89);
+    /* margin-left: 30px; */
+    box-shadow: 0 0 10px rgb(0, 0, .2); 
+    height: 70vh;
+    width: 60vw;
+    margin-top: 45px;
+}
+.photo img{
+    height:35vh ;
+    width: 30vh;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.photo-text{
+    color: #333;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    line-height: 19px;
+}
+.name{
+    margin-top: 20px;
+    color: #333;
+    /* font-weight: 700; */
+    font-size: 24px;
+
+}
+.sd{
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.footer-main{
+    background-color: #deb887;
+    height: 50vh;
+    width: 100%;
+}
+.footer-sec{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    height: 50vh;
+    justify-content: flex-start;
+    width: 100%;
+
+}
+.m-cube {
+    margin-left: 50px;
+    height: 75px;
+    padding-bottom: 20px;
+    width: 200px;
+    margin-top: 10px;
+}
+.cube-h{
+    color: #000;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.navbar-logo{
+    color: #fff;
+    font-size: 2rem;
+    justify-content: space-between;
+    text-decoration: none;
+    width: 10rem;
+}
+.img1{
+    height: 75px;
+    padding-bottom: 20px;
+    width: 200px;
+}
+.qlinks{
+    /* display: flex; */
+    /* flex-direction: row; */
+    margin-top: 10px;
+    row-gap: 10px;
+
+}
+.cube-p{
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 40px;
+    margin-top: -20px;
+}
 
 
 
