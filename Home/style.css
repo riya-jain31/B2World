@@ -84,6 +84,7 @@ button{
 .get-free-btn {
     font-size: 16px;
 }
+/* navbar-start */
 .navbar{
     align-items: center;
     display: flex;
@@ -131,14 +132,14 @@ ul{
 .full-main-page{
     width: 100vw;
 }
-.slider-container{
+.slider-container img{
     /* height: 40vh; */
-    background-image: url(https://res.cloudinary.com/dofzu13gt/image/upload/v1695464341/marvin-meyer-SYTO3xs06fU-unsplash_gvg3sw.jpg);
+    /* background-image: url(https://res.cloudinary.com/dofzu13gt/image/upload/v1695464341/marvin-meyer-SYTO3xs06fU-unsplash_gvg3sw.jpg); */
 height:50vh;
 width: 100%;
 padding-left:0 7000px;
 box-shadow: 0 10px 30px rgba(0,0,0, .07);
-margin-top: 0;
+/* margin-top: 0; */
 }
 .carousel-root{
     outline: none;
@@ -231,6 +232,8 @@ carousel.carousel-slider{
     margin-right:50px;
 
 }
+
+/* services */
 .services{
     /* background-color: #333; */
     /* align-items: center; */
@@ -821,11 +824,47 @@ hr{
     border-top: 1px solid;
     opacity: .25;
 }
-/* .location img{
+.headq{
+    width: 30vw;
+}
+.q-heading{
+    display: flex;
+}
+.q-address{
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 20px;
+    line-height: 2rem;
+}
+.location-logo img{
+    /* display: flex; */
+    justify-content: center;
     height: 30px;
     width: 30px;
-    
-} */
+    margin-right: 90px;
+}
+.location-text {
+    text-align: center;
+    margin-top: -30px;
+    margin-left: 30px;
+
+}
+.call{
+    display: flex;
+    margin-top: 10px;
+}
+.call-img img{
+    height: 30px ;
+    width: 30px;
+    margin-left: -160px;
+}
+
+.mobile{
+    text-align: center;
+    margin-top: -30px;
+    margin-left: 90px;
+
+}
 
 .copyright-main{
     background-color: #181b31;
