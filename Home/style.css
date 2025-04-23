@@ -331,9 +331,7 @@ carousel.carousel-slider{
     height: 7vh;
     margin-top: 1%;
 }
-.services-card:nth-child(2){
-    transform: rotate(15deg);
-}
+
 
 .widget-item{
     align-items: center;
@@ -717,6 +715,8 @@ carousel.carousel-slider{
     margin-top: 20px;
     font-size: 12px;
 }
+
+/* footer start */
 
 .footer-main{
     background-color: #deb887;
