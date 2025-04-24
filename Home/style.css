@@ -113,6 +113,23 @@ button{
     width: 70vw;
     padding-top: 10px;
 }
+
+/* .nav-items a::after{
+    background-color: #f8198d;
+    bottom: 0;
+    content: "";
+    height: 3px;
+    left: 0;
+    position: absolute;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: right;
+    transform-origin: right;
+    transition: -webkit-transform .3s ease-in-out;
+    transition: transform .3s ease-in-out;
+    transition: transform .3s ease-in-out, -webkit-transform .3s ease-in-out;
+    width: 90%; */
+
 .nav-items ul{
     color: #000;
     margin-top: 0;
@@ -141,29 +158,6 @@ padding-left:0 7000px;
 box-shadow: 0 10px 30px rgba(0,0,0, .07);
 /* margin-top: 0; */
 }
-.carousel-root{
-    outline: none;
-}
-carousel.carousel-slider{
-    margin: 0;
-    overflow: hidden;
-    position: relative;
-}
-.carrousel .control-dots{
-    bottom: 0;
-    margin: 10px 0;
-    padding: 0;
-    position: absolute;
-    text-align: center;
-    width: 100%;
-    z-index: 1;
-}
-.carousel *{
-    box-sizing: border-box;
-
-}
-
-
 
 .offer-main{
     margin-top: 20px;
@@ -200,7 +194,7 @@ carousel.carousel-slider{
     line-height:1.5;
 }
 .offer  button{
-    background-color:pink ;
+    background-color:#f8198d ;
     height:8vh;
     width: 12vw;
 }
@@ -625,15 +619,18 @@ carousel.carousel-slider{
 }
 .contact{
     color: #333;
+    display: grid;
     /* margin-top: 20px; */
 
 }
 .contact-us{
     margin-top: 30px;
+    margin-bottom: 38px;
 
 }
-.mobile{
-    margin-top: 20px;
+p.mobile{
+    margin-left: -113px;
+
 }
 .get-item{
     box-sizing: border-box;
