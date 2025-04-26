@@ -200,6 +200,21 @@ box-shadow: 0 10px 30px rgba(0,0,0, .07);
 }
 
 .btn1{
+    background-color: #fff;
+    border-radius: 5px;
+    border-style: none;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, .2);
+    font-size: 18px;
+    height: 44px;
+    margin-top: 2px;
+    width: 400px;
+}
+
+.btn1 button{
+    color: #fff;
+}
+
+.btn2{
     border-color: #fff;
     border-radius: 5px;
     font-size: 18px;
@@ -210,21 +225,6 @@ box-shadow: 0 10px 30px rgba(0,0,0, .07);
     width: 100%;
     background-color: #000;
     color: #fff;
-}
-
-.btn1 button{
-    color: #fff;
-}
-
-.btn2{
-    background-color: #fff;
-    border-radius: 5px;
-    border-style: none;
-    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, .2);
-    font-size: 18px;
-    height: 44px;
-    margin-top: 2px;
-    width: 400px;
 
 }
 .save-p1{
