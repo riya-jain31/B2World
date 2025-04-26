@@ -263,7 +263,7 @@ box-shadow: 0 10px 30px rgba(0,0,0, .07);
 }
 
 .green-name{
-    color:#4caf50;
+    color: rgba(250, 25, 137, 0.973);
 }
 
 .pricing-name{
@@ -294,14 +294,14 @@ box-shadow: 0 10px 30px rgba(0,0,0, .07);
 .most-pop{
     font-size: 14px;
     margin-left: 150px;
-    background-color: #4caf50;
+    background-color: rgba(250, 25, 137, 0.973);
     color: #fff;
     border-radius: 5px;
 }
 
 .call-btn{
     cursor: pointer;
-    background-color: #4caf50;
+    background-color: rgba(250, 25, 137, 0.973);
     color: #fff;
     height: 8vh;
     width: 15vw;
